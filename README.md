@@ -65,11 +65,19 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Prueba
 
+## Instalación
+
 - composer install
 - npm install
 - npm run dev (en caso de que falle volver a ejecutar)
 - cp .env.example .env
 - php artisan key:generate
+
+## Base de Datos
+
+- Crear base de datos con:
+- 'charset' => 'utf8',
+- 'collation' => 'utf8_general_ci',
 
 ## Mail
 
