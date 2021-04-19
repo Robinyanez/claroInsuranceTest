@@ -76,13 +76,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Base de Datos
 
 - Crear base de datos con:
-- 'charset' => 'utf8',
-- 'collation' => 'utf8_general_ci',
+- charset => utf8
+- collation => utf8_general_ci
 
 ## Mail
 
 - el servicio de email esta configurado con Mailtrap.
-- el archivo .env.example tiene las configuracion comentadas por favor cambiarlas y utilizarlas.
+- el archivo .env.example contiene las configuracion necesarias, en caso de ser necesario cambiar las credenciales de acceso a la base de datos.
 
 ## Observaciones
 
